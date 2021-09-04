@@ -60,6 +60,20 @@
     visibility: visible;
     opacity: 1;
     transform: scale(1);
+    border: 5px solid red;
+    position: relative;
+    
+}
+
+.leftItem{
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+.rightItem{
+  position: absolute;
+  top: 20px;
+  right: 20px;
 }
 
 .model img{
