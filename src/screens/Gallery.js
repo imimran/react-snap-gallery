@@ -5,6 +5,7 @@ import "../screens/gallery.css";
 import HighlightOffIcon from "@material-ui/icons/HighlightOff";
 import DeleteForeverIcon from "@material-ui/icons/DeleteForever";
 
+
 function Gallery() {
   const [data, setData] = useState([]);
   const [loading, setLoading] = useState(false);
@@ -59,7 +60,11 @@ function Gallery() {
         <DeleteForeverIcon  className='rightItem'  onClick={()=> deleteImage(temPicSrc._id)}/>
         
       </div>
+
+  
       <div className="gallery">
+
+   
         {loading ? (
           <h1>Loading...</h1>
         ) : error ? (
