@@ -46,7 +46,7 @@
     left:0;
     display: flex;
     justify-content: center;
-    background-color: black;
+    background-color: black; 
     transition: opacity .4s ease, visibility .4s ease, transform .5s ease-in-out;
     visibility: hidden;
     opacity: 0;
@@ -89,12 +89,6 @@
 }
 
 .model.open svg{
-    position: fixed;
-    top: 10x;
-    right: 10px;
-    width: 2rem;
-    height: 2rem;
-    padding: 5px 10px 5px 10px;
     background-color: black;
     color: white;
     cursor: pointer;

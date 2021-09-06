@@ -29,7 +29,6 @@ function ImageUplod() {
   return (
     <div>
       <Dropzone
-        accept={[".jpeg,.jpg,.png,.gif"]}
         onDrop={(acceptedFiles) => {
           onDrop(acceptedFiles);
         }}
